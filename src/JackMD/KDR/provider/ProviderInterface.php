@@ -33,7 +33,7 @@ declare(strict_types = 1);
 
 namespace JackMD\KDR\provider;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 interface ProviderInterface{
 	
