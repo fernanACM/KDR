@@ -75,7 +75,7 @@ class KDR extends PluginBase{
 		return true;
 	}
 	
-	public function onDisable(){
+	public function onDisable(): void{
 		if($this->isValidProvider()){
 			$this->getProvider()->close();
 		}
@@ -110,4 +110,3 @@ class KDR extends PluginBase{
 		}
 	}
 }
-
