@@ -34,7 +34,7 @@ declare(strict_types = 1);
 namespace JackMD\KDR\provider;
 
 use JackMD\KDR\KDR;
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class SQLiteProvider implements ProviderInterface{
 	
